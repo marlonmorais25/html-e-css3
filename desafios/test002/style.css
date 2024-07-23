@@ -1,0 +1,48 @@
+
+*{
+    margin: 0px;
+    height: 100%;
+    padding: 0px;
+
+}
+
+body {
+    background-color: black;
+    background-image: url(imagens/BR-pt-20240617-popsignuptwoweeks-perspective_alpha_website_large.jpg) ;
+    
+}
+.conteiner {
+    
+    height: 60px;
+    width: auto;
+    border: 1px white solid;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(imagens/BR-pt-20240617-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+}
+.box {
+    color: white;
+    text-align: center;
+    height: 35px;
+    width: 50px;
+    margin: 20px 45px;
+    background-image: url(imagens/Logonetflix.png);
+
+}
+.box1{
+
+    color: white;
+    text-align: center;
+    background-color: red;
+    height: 30px;
+    width: 50px;
+    margin: 20px 45px;
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.conteiner2{
+    background-image: url(imagens/BR-pt-20240617-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    margin-bottom: 700px;
+
+}

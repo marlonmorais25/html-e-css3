@@ -1,0 +1,28 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+}
+header{
+    background-color: whitesmoke;
+    width: auto;
+    height: 50px;
+    display: flex;
+}
+header > nav{
+
+    background-color: white;
+    width: auto;
+    height: 70px;
+}
+header h2{
+
+    background-color: whitesmoke;
+    height: 60px;
+}
+div.video > iframe{
+   
+}
+div.video{
+    background-color: black;
+    margin: 30px;
+}
