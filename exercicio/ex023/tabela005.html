@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .destaque{
+            background-color:green;
+        }
+        col.cnome{
+            background-color: red;
+        }
+        col.csexo{
+            background-color: blue;     
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>cadastro</caption>
+        <tr>
+            <th  scope="col">nome</th>
+            <th scope="col">sexo</th>
+            <th scope="col">idade</th>
+            <th scope="col">prodissao</th>
+        </tr>
+        <tr>
+            <td scope="col">ana maria</td>
+            <td scope="col">F</td>
+            <td scope="col">25</td>
+            <td scope="col">jornalista</td>
+        </tr>
+        <tr>
+            <td scope="col">julio</td>
+            <td scope="col">M</td>
+            <td scope="col">26</td>
+            <td scope="col">pedreiro</td>
+        </tr>
+        <tr>
+            <td scope="col">cluadia</td>
+            <td scope="col">F</td>
+            <td scope="col">28</td>
+            <td scope="col">contadora</td>
+        </tr>
+        <tr>
+            <td scope="col">maria</td>
+            <td scope="col">F</td>
+            <td scope="col">22</td>
+            <td scope="col">vendedora</td>
+        </tr>
+        <tr>
+            <td scope="col">helio</td>
+            <td scope="col">M</td>
+            <td scope="col">20</td>
+            <td scope="col">professor</td>
+        </tr>
+    
+</body>
+</html>
