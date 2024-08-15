@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto formulario</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        #cabecalho{
+            width: 200px;
+            
+            background-color: purple;
+            color: white;
+            border: 2px solid black;
+            border-radius: 10px;
+            box-shadow: 2px 2px 2px black;
+            transition: margin-left 0,4s;
+
+        }
+        
+        #nome{
+            font-family: sans-serif;
+            margin-bottom: 10px;
+        }
+        #enviar{
+            background-color: red;
+            width: 150px;
+            height: 30px;
+        }
+        #sobre{
+            font-family: sans-serif;
+            margin-bottom: 10px;    
+        }
+        #idade{
+            font-family: sans-serif;
+            margin-bottom: 10px;    
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>treinando formularios</h1>
+    <form action="#">
+        <fieldset id="cabecalho">
+        <div id="nome">
+            <label for="inome">nome</label>
+            <input type="text" name="nome" id="inome" required maxlength="10" minlength="3" >
+        </div>
+        <div id="sobre">
+            <label for="isobre">sobrenome</label>
+            <input type="text" name="sobre" id="isobre">
+        </div>
+        <div id="idade">
+            <label for="idade">idade</label>
+            <input type="date" name="" id="">
+        </div>
+        <div>
+            <label for="imail">e-mail</label>
+            <input type="email" name="email" id="imail" required placeholder="josémaria@gmail.com" >
+
+        </div>
+        <div>
+            <label for="isexo">masculino</label>
+            <input type="radio" name="sexo" id="isexo">
+            <label for="isexo">feminino</label>
+            <input type="radio" name="sexo" id="isexo">
+        </div>
+        <div>
+            <label for="isen">senha</label>
+            <input type="password" name="senha" id="isen" required minlength="8" maxlength="20">
+        </div>
+
+        <div >
+            <input type="submit" value="enviar" id="enviar">
+        </div>
+    </fieldset>
+
+
+
+
+    </form>
+
+    
+</body>
+</html>
